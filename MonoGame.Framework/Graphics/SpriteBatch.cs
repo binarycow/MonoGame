@@ -658,6 +658,8 @@ namespace Microsoft.Xna.Framework.Graphics
             var firstGlyphOfLine = true;
 
             fixed (SpriteFont.Glyph* pGlyphs = spriteFont.Glyphs)
+
+
             for (var i = 0; i < text.Length; ++i)
             {
                 var c = text[i];
